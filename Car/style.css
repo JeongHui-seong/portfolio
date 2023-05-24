@@ -219,7 +219,6 @@ a:visited {
 }
 
 .viewmore:hover {
-    transform: translateX(10px);
     background-color: #2C74B3;
     color: #0A2647;
 }

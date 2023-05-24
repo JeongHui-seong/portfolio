@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customized.css">
+    <link rel="shortcut icon" href="img/Covely-title-icon.png" type="image/x-icon">
+    <title>COVELY</title>
+</head>
+
+<body>
+    <div class="head">
+        <div id="head-img"><img src="img/customize-head.png" alt=""></div>
+        <div id="head-text">나만의 케이스를 만들고 싶으신가요?</div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="main1">
+        <div id="main1-img"><img src="img/main1.png" alt=""></div>
+        <div id="main1-text1">
+            <p>원하는 사진, 일러스트를 삽입해</p>
+        </div>
+        <div id="main1-text2">
+            <p>케이스를 주문해보세요.</p>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="btn">
+        <button class="make-btn">
+            <p>MAKE</p>
+        </button>
+        <a href="index.html"><button class="home-btn">
+                <p>HOME</p>
+            </button></a>
+    </div>
+
+
+    <script>
+        let observer = new IntersectionObserver(function (e) {
+            e.forEach(function (box) {
+                if (box.isIntersecting) {
+                    box.target.style.opacity = 1;
+                    box.target.style.transform = 'rotate(0deg)';
+                    box.target.style.transform = 'scale(1)';
+                } else {
+                    box.target.style.opacity = 0;
+                    box.target.style.transform = 'scale(1.5)';
+                }
+
+            })
+        })
+
+        let div = document.querySelectorAll('div')
+        observer.observe(div[0])
+        observer.observe(div[1])
+        observer.observe(div[2])
+        observer.observe(div[4])
+        observer.observe(div[5])
+        observer.observe(div[6])
+        observer.observe(div[7])
+        observer.observe(div[8])
+
+    </script>
+
+</body>
+
+</html>

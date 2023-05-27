@@ -218,8 +218,15 @@ div {
     color: white;
 }
 
-.main2-content-head-box p, .main2-content-head-box span{
-    margin-top: 3px;
+.main2-content{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.main2-content i{
+    margin-right: 6px;
 }
 
 

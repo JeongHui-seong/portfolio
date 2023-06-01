@@ -21,6 +21,13 @@ $('#carpage-con').on('click',function(){
     $('.carpage-box').addClass('active')
 })
 
+$('#cafefactory-close').on('click',function(){
+    $('.cafefactory-box').removeClass('active')
+})
+$('#cafefactory-con').on('click',function(){
+    $('.cafefactory-box').addClass('active')
+})
+
 document.addEventListener('DOMContentLoaded', function(){
     new TypeIt('#header-title1')
     .pause(2000)

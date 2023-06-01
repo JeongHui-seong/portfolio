@@ -218,15 +218,8 @@ div {
     color: white;
 }
 
-.main2-content{
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    margin-top: 6px;
-}
-
-.main2-content i{
-    margin-right: 6px;
+.main2-content-head-box p, .main2-content-head-box span{
+    margin-top: 3px;
 }
 
 
@@ -510,6 +503,147 @@ div {
     overflow: hidden;
     color: #ccc;
 }
+
+#cafefactory-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    left: 222px;
+    top: 265px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cafefactory-icon {
+    width: 100px;
+    height: 100px;
+    background: #F5EA5A;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.cafefactory-box {
+    width: 1600px;
+    height: 800px;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 160px;
+    transform: scale(0);
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.cafefactory-head {
+    position: relative;
+    background-color: #eee;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+.cafefactory-head-content {
+    position: absolute;
+    font-size: 16px;
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#cafefactory-close {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+.cafefactory-content {
+    width: 1600px;
+    height: 750px;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.cafefactory-content img {
+    position: absolute;
+}
+
+.cafefactory-content button {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    font-size: 18px;
+    border: #8d7b68 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #8d7b68;
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1;
+    font-family: 'SUITE-Regular';
+}
+
+.cafefactory-btn-box {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.cafefactory-btn-box button {
+    overflow: hidden;
+}
+
+.cafefactory-btn-box button:hover {
+    color: black;
+}
+
+.cafefactory-btn-box button::before {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8d7b68;
+    z-index: -1;
+    transition: all 1s;
+}
+
+.cafefactory-btn-box button:hover::before {
+    top: 0;
+    overflow: hidden;
+    color: #ccc;
+}
+
 
 footer {
     width: 1920px;

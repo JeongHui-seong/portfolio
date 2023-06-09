@@ -16,7 +16,6 @@ body {
     background: linear-gradient(355deg, #0A2647 0%, #144272 100%);
     margin: 0;
     font-family: 'Pretendard-Regular';
-    overflow-y: hidden;
 }
 
 p {

@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DOSGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -19,6 +26,7 @@ body {
     overflow: hidden;
     font-family: 'SUITE-Regular';
     line-height: 1.2;
+    background-color: #feff87;
 }
 
 p {
@@ -36,8 +44,25 @@ div {
 
 .main-con {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-content{
+    position: absolute;
+    top: 25%;
+    right: 12%;
+    font-family: 'DOSGothic';
+}
+
+.main-sub-title{
+    font-size: 50px;
+    color: #9ef0e1;
+}
+
+.main-title{
+    font-size: 100px;
+    color: #8ccce7;
 }
 
 #intro-con {
@@ -69,7 +94,7 @@ div {
 }
 
 .introduction-box {
-    width: 1600px;
+    width: 80vw;
     height: 800px;
     position: absolute;
     background-color: white;
@@ -117,7 +142,7 @@ div {
 
 
 .intro-content {
-    width: 1600px;
+    width: 100%;
     height: 750px;
     background-color: white;
     overflow-y: scroll;
@@ -260,7 +285,7 @@ div {
 }
 
 .homepage-box {
-    width: 1600px;
+    width: 80vw;
     height: 800px;
     position: absolute;
     background-color: white;
@@ -306,7 +331,7 @@ div {
 }
 
 .homepage-content {
-    width: 1600px;
+    width: 100%;
     height: 750px;
     background-color: white;
     overflow-y: scroll;
@@ -316,11 +341,12 @@ div {
 
 .homepage-content img {
     position: absolute;
+    width: 100%;
 }
 
 .homepage-content button {
     position: absolute;
-    width: 260px;
+    width: 250px;
     height: 60px;
     font-size: 18px;
     border: white 3px solid;
@@ -340,8 +366,7 @@ div {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
-    margin-left: 10px;
+    margin-top: 250px;
     position: relative;
 }
 
@@ -400,7 +425,7 @@ div {
 }
 
 .carpage-box {
-    width: 1600px;
+    width: 80vw;
     height: 800px;
     position: absolute;
     background-color: white;
@@ -446,7 +471,7 @@ div {
 }
 
 .carpage-content {
-    width: 1600px;
+    width: 100%;
     height: 750px;
     background-color: white;
     overflow-y: scroll;
@@ -456,11 +481,12 @@ div {
 
 .carpage-content img {
     position: absolute;
+    width: 100%;
 }
 
 .carpage-content button {
     position: absolute;
-    width: 260px;
+    width: 220px;
     height: 60px;
     font-size: 18px;
     border: #2C74B3 1px solid;
@@ -481,7 +507,6 @@ div {
     align-items: center;
     justify-content: center;
     margin-top: 300px;
-    margin-left: 10px;
     position: relative;
 }
 
@@ -540,7 +565,7 @@ div {
 }
 
 .cafefactory-box {
-    width: 1600px;
+    width: 80vw;
     height: 800px;
     position: absolute;
     background-color: white;
@@ -586,7 +611,7 @@ div {
 }
 
 .cafefactory-content {
-    width: 1600px;
+    width: 100%;
     height: 750px;
     background-color: white;
     overflow-y: scroll;
@@ -596,11 +621,12 @@ div {
 
 .cafefactory-content img {
     position: absolute;
+    width: 100%;
 }
 
 .cafefactory-content button {
     position: absolute;
-    width: 260px;
+    width: 250px;
     height: 60px;
     font-size: 18px;
     border: #8d7b68 1px solid;
@@ -620,8 +646,7 @@ div {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
-    margin-left: 10px;
+    margin-top: 250px;
     position: relative;
 }
 
@@ -653,10 +678,11 @@ div {
 
 
 footer {
-    width: 1920px;
+    width: 100vw;
     height: 60px;
     background-color: #ccc;
-    bottom: 10%;
+    bottom: 0;
+    left: 0;
     position: absolute;
 }
 

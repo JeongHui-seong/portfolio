@@ -99,7 +99,7 @@ div {
     position: absolute;
     background-color: white;
     top: 50px;
-    left: 160px;
+    left: 10%;
     transform: scale(0);
     transition: all 0.5s;
     display: flex;
@@ -159,21 +159,20 @@ div {
 }
 
 .intro-header {
-    width: 1200px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.1);
     border: 2px white solid;
     border-radius: 20px;
     padding: 50px 100px;
     backdrop-filter: blur(20px);
-    margin-left: 6%;
     margin-bottom: 5%;
 }
 
 .intro-title {
     display: flex;
-    width: 750px;
-    justify-content: space-between;
+    width: 100%;
     align-items: baseline;
+    gap: 3%;
     margin-bottom: 50px;
 }
 
@@ -194,14 +193,17 @@ div {
 }
 
 .intro-main1 {
-    width: 1200px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.1);
     border: 2px white solid;
     border-radius: 20px;
     padding: 50px 100px;
     backdrop-filter: blur(20px);
-    margin-left: 6%;
     margin-bottom: 5%;
+}
+
+.intro-main1 img{
+    width: 100%;
 }
 
 .main1-content-head {
@@ -216,7 +218,6 @@ div {
     width: 220px;
     height: 293px;
     border-radius: 5px;
-    border: 1px white solid;
     background-color: transparent;
 }
 
@@ -225,13 +226,12 @@ div {
 }
 
 .intro-main2 {
-    width: 1200px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.1);
     border: 2px white solid;
     border-radius: 20px;
     padding: 50px 100px;
     backdrop-filter: blur(20px);
-    margin-left: 6%;
     margin-bottom: 5%;
 }
 
@@ -290,7 +290,7 @@ div {
     position: absolute;
     background-color: white;
     top: 50px;
-    left: 160px;
+    left: 10%;
     transform: scale(0);
     transition: all 0.5s;
     display: flex;
@@ -366,7 +366,7 @@ div {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 17%;
     position: relative;
 }
 
@@ -430,7 +430,7 @@ div {
     position: absolute;
     background-color: white;
     top: 50px;
-    left: 160px;
+    left: 10%;
     transform: scale(0);
     transition: all 0.5s;
     display: flex;
@@ -506,7 +506,7 @@ div {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 20%;
     position: relative;
 }
 
@@ -570,7 +570,7 @@ div {
     position: absolute;
     background-color: white;
     top: 50px;
-    left: 160px;
+    left: 10%;
     transform: scale(0);
     transition: all 0.5s;
     display: flex;
@@ -646,7 +646,7 @@ div {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 17%;
     position: relative;
 }
 

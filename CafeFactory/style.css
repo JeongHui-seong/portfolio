@@ -35,7 +35,7 @@ p {
 .nav-con {
     width: 100vw;
     height: 60px;
-    padding: 0px 300px;
+    padding: 0px 15%;
     background-color: #8D7B68;
     display: flex;
     justify-content: space-between;
@@ -110,7 +110,7 @@ p {
     width: 100vw;
     height: 40vh;
     display: flex;
-    padding: 0 300px;
+    padding: 0 15%;
     justify-content: space-between;
     transition: all 1.5s;
     transition-delay: 1s;
@@ -205,7 +205,7 @@ p {
     margin-top: 100px;
     width: 100vw;
     display: flex;
-    padding: 0 300px;
+    padding: 0 15%;
     justify-content: space-between;
     align-items: end;
 }
@@ -322,7 +322,7 @@ p {
 }
 
 .main-coffee-title {
-    margin-left: 300px;
+    margin-left: 15%;
     font-size: 30px;
     margin-top: 50px;
     font-weight: bold
@@ -332,7 +332,7 @@ p {
     width: 100vw;
     height: 50vh;
     display: flex;
-    padding: 0 300px;
+    padding: 0 15%;
     margin-top: 50px;
     justify-content: space-between;
 }
@@ -420,7 +420,7 @@ p {
 }
 
 .main-bread-title {
-    margin-left: 300px;
+    margin-left: 15%;
     font-size: 30px;
     margin-top: 150px;
     font-weight: bold
@@ -430,7 +430,7 @@ p {
     width: 100vw;
     height: 50vh;
     display: flex;
-    padding: 0 300px;
+    padding: 0 15%;
     margin-top: 50px;
     justify-content: space-between;
 }
@@ -512,7 +512,7 @@ p {
 }
 
 .main-beverage-title {
-    margin-left: 300px;
+    margin-left: 15%;
     font-size: 30px;
     margin-top: 150px;
     font-weight: bold
@@ -522,7 +522,7 @@ p {
     width: 100vw;
     height: 50vh;
     display: flex;
-    padding: 0 300px;
+    padding: 0 15%;
     margin-top: 50px;
     justify-content: space-between;
 }
@@ -606,7 +606,7 @@ p {
 .event-title {
     margin-top: 150px;
     width: 100vw;
-    padding: 0 300px;
+    padding: 0 15%;
     justify-content: space-between;
     flex-direction: row;
     display: flex;
@@ -630,7 +630,7 @@ p {
     height: 50vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 15%;
     margin-top: 50px;
     opacity: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.2s;

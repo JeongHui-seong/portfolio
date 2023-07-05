@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"="IE=edge">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Covely-title-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>COVELY</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/Covely-Logo-Transparent-h80.png" alt=""></a>
+        </div>
+        <div class="search">
+            <input type="text" id="search" placeholder="원하는 케이스를 검색해보세요.">
+            <i class="fa-solid fa-magnifying-glass" id="engine-search"></i>
+        </div>
+        <div class="icons">
+            <a href="../login/index.html"><p id="login">로그인</p></a>
+            <a href="../mypage/index.html"><i class="fa-solid fa-user" id="mypage"></i></a>
+            <a href="../mypage/index.html"><i class="fa-solid fa-heart" id="like"></i></a>
+            <a href="../mypage/index.html"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+        </div>
+    </div>
+    <div class="nav-con">
+        <a href="../phonecase-page/index.html">
+            <p>휴대폰 케이스</p>
+        </a>
+        <a href="../phonecase-page/index.html">
+            <p>에어팟 케이스</p>
+        </a>
+        <a href="../phonecase-page/index.html">
+            <p>스트랩</p>
+        </a>
+        <a href="../phonecase-page/index.html">
+            <p>그립톡</p>
+        </a>
+        <a href="../customized/index.html">
+            <p>케이스 제작</p>
+        </a>
+    </div>
+
+
+    <div class="mobile-header">
+        <i class="fa-solid fa-bars" id="mobile-menu"></i>
+        <div class="logo">
+            <a href="../index.html"><img src="../img/Covely-Logo-Transparent-h80.png" alt=""></a>
+        </div>
+        <div class="icons">
+            <a href="../mypage/index.html"><i class="fa-solid fa-user" id="mypage"></i></a>
+            <a href="../mypage/index.html"><i class="fa-solid fa-heart" id="like"></i></a>
+            <a href="../mypage/index.html"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+        </div>
+    </div>
+
+    <div class="mobile-menu-con">
+        <div class="mobile-menu-wrapper">
+            <div class="mobile-menu-header">
+                <div class="mobile-menu-left">
+                    <a href="../login/index.html">
+                        <div class="mobile-login">
+                            <p>로그인</p>
+                        </div>
+                    </a>
+                    <a href="../login/index.html">
+                        <div class="mobile-join">
+                            <p>회원가입</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="mobile-menu-right">
+                    <i class="fa-solid fa-xmark" id="mobile-menu-close"></i>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="원하는 케이스를 검색해보세요.">
+                <i class="fa-solid fa-magnifying-glass" id="engine-search"></i>
+            </div>
+            <div class="mobile-nav-con">
+                <a href="../phonecase-page/index.html"><div class="mobile-nav">
+                    <p>휴대폰 케이스</p>
+                    <div class="mobile-nav-btn">
+                    </div>
+                </div></a>
+                <a href="../phonecase-page/index.html"><div class="mobile-nav">
+                    <p>에어팟 케이스</p>
+                    <div class="mobile-nav-btn">
+                    </div>
+                </div></a>
+                <a href="../phonecase-page/index.html"><div class="mobile-nav">
+                    <p>스트랩</p>
+                    <div class="mobile-nav-btn">
+                    </div>
+                </div></a>
+                <a href="../phonecase-page/index.html"><div class="mobile-nav">
+                    <p>그립톡</p>
+                    <div class="mobile-nav-btn">
+                    </div>
+                </div></a>
+                <a href="../customized/index.html"><div class="mobile-nav">
+                    <p>케이스 제작</p>
+                    <div class="mobile-nav-btn">
+                    </div>
+                </div></a>
+            </div>
+            <div class="mobile-menu-bottom-con">
+                <div class="mobile-menu-bottom-btn-wrapper">
+                    <div class="mobile-menu-bottom-btn" style="border-right: none;border-bottom: none;">
+                        <p>고객센터</p>
+                    </div>
+                    <div class="mobile-menu-bottom-btn" style="border-bottom: none;">
+                        <p>문의하기</p>
+                    </div>
+                </div>
+                <div class="mobile-menu-bottom-btn-wrapper">
+                    <div class="mobile-menu-bottom-btn" style="border-right: none;">
+                        <p>반품 및 교환</p>
+                    </div>
+                    <div class="mobile-menu-bottom-btn">
+                        <p>주문현황</p>
+                    </div>
+                </div>
+                <div class="mobile-menu-bottom-sns">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="middle-ad-con">
+        <div class="middle-ad">
+            <a href="../customized/index.html"><img src="../img/middlead.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="product-title-con">
+        <div class="product-title">
+            <p>휴대폰 케이스</p>
+        </div>
+    </div>
+
+    <div class="options-con">
+        <div class="options">
+            <select name="" class="select-bar">
+                <option value="">신상품</option>
+                <option value="">높은가격순</option>
+                <option value="">낮은가격순</option>
+                <option value="">좋아요순</option>
+                <option value="">리뷰많은순</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="product-con">
+        <div class="product-wrapper">
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/bluedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>파란 공룡 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/catcase1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>선글라스 낀 고양이 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/checkcase-black.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>검정 체크무늬 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/checkcase-green.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>초록 체크무늬 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="product-wrapper">
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/dogcase1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>선글라스 낀 강아지 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/flowercase1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>꽃무늬 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/greendinosaur1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>초록 공룡 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/newarrival-1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>타이다이무늬 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="product-wrapper">
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/newarrival-2.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>핑크 젤리 에어팟 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>6,800원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/newarrival-3.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>일본풍 패턴 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/newarrival-4.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>하얀 바둑돌 그립톡</p>
+                    </div>
+                    <div class="product-price">
+                        <p>4,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/orangedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>주황 공룡 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="product-wrapper">
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/pinkdinosaur1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>분홍 공룡 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/watermeloncase1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>수박 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/greendinosaurairpod1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>초록 공룡 에어팟 케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>6,800원</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../detail/index.html">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="../img/pinkdinosaur1detail.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>핑크 공룡케이스</p>
+                    </div>
+                    <div class="product-price">
+                        <p>10,900원</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="product-con-768px">
+        <div class="product-wrapper-768px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/bluedinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>파란 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/catcase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>선글라스 낀 고양이 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/checkcase-black.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>검정 체크무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-768px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/checkcase-green.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>초록 체크무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/dogcase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>선글라스 낀 강아지 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/flowercase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>꽃무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-768px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/greendinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>초록 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>타이다이무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-2.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>핑크 젤리 에어팟 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>6,800원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-768px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-3.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>일본풍 패턴 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-4.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>하얀 바둑돌 그립톡</p>
+                </div>
+                <div class="product-price">
+                    <p>4,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/orangedinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>주황 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-768px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/pinkdinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>분홍 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/watermeloncase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>수박 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/greendinosaurairpod1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>초록 공룡 에어팟 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>6,800원</p>
+                </div>
+            </div></a>
+        </div>
+    </div>
+
+    <div class="product-con-480px">
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/bluedinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>파란 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/catcase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>선글라스 낀 고양이 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/checkcase-black.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>검정 체크무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/watermeloncase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>수박 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/checkcase-green.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>초록 체크무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/dogcase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>선글라스 낀 강아지 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/flowercase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>꽃무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/greendinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>초록 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>타이다이무늬 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-2.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>핑크 젤리 에어팟 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>6,800원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-3.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>일본풍 패턴 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/newarrival-4.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>하얀 바둑돌 그립톡</p>
+                </div>
+                <div class="product-price">
+                    <p>4,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/orangedinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>주황 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/pinkdinosaur1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>분홍 공룡 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+        </div>
+        <div class="product-wrapper-480px">
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/watermeloncase1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>수박 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>10,900원</p>
+                </div>
+            </div></a>
+            <a href="../detail/index.html"><div class="product">
+                <div class="product-img">
+                    <img src="../img/greendinosaurairpod1.jpg" alt="">
+                </div>
+                <div class="product-name">
+                    <p>초록 공룡 에어팟 케이스</p>
+                </div>
+                <div class="product-price">
+                    <p>6,800원</p>
+                </div>
+            </div></a>
+        </div>
+    </div>
+
+
+    <div class="page-con">
+        <div class="page-wrapper">
+            <i class="fa-solid fa-angles-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
+            <p>1</p>
+            <p style="color: #999;">2</p>
+            <p style="color: #999;">3</p>
+            <i class="fa-solid fa-angle-right"></i>
+            <i class="fa-solid fa-angles-right"></i>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-con">
+            <div class="center">
+                <p>CUSTOMER SERVICE CENTER</p>
+                <p><i class="fa-solid fa-phone"></i> 010-1234-5678
+                </p>
+                <p>9:00 A.M. ~ 18:00 P.M.</p>
+                <p>주말 / 공휴일 휴무</p>
+            </div>
+            <div class="inquiry">
+                <p>문의하기</p>
+                <p>반품 및 교환</p>
+                <p>주문현황</p>
+            </div>
+            <div class="SNS">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e810b1ac08.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

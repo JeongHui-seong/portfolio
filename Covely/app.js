@@ -288,4 +288,24 @@ const onmouseover = e => {
   }, 5)
 }
 
-btn.addEventListener('mouseover', onmouseover)
+btn.addEventListener('mouseover', onmouseover);
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 0,
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        300: {
+            slidesPerView: 2
+        },
+        480: {
+            slidesPerView: 3
+        },
+        768:{
+            slidesPerView: 4
+        }
+      }
+  });

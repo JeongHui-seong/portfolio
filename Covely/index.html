@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Covely-title-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>COVELY</title>
 </head>
 
@@ -19,7 +20,9 @@
             <i class="fa-solid fa-magnifying-glass" id="engine-search"></i>
         </div>
         <div class="icons">
-            <a href="./login/index.html"><p id="login">로그인</p></a>
+            <a href="./login/index.html">
+                <p id="login">로그인</p>
+            </a>
             <a href="./mypage/index.html"><i class="fa-solid fa-user" id="mypage"></i></a>
             <a href="./mypage/index.html"><i class="fa-solid fa-heart" id="like"></i></a>
             <a href="./mypage/index.html"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
@@ -79,31 +82,41 @@
                 <i class="fa-solid fa-magnifying-glass" id="engine-search"></i>
             </div>
             <div class="mobile-nav-con">
-                <a href="./phonecase-page/index.html"><div class="mobile-nav">
-                    <p>휴대폰 케이스</p>
-                    <div class="mobile-nav-btn">
+                <a href="./phonecase-page/index.html">
+                    <div class="mobile-nav">
+                        <p>휴대폰 케이스</p>
+                        <div class="mobile-nav-btn">
+                        </div>
                     </div>
-                </div></a>
-                <a href="./phonecase-page/index.html"><div class="mobile-nav">
-                    <p>에어팟 케이스</p>
-                    <div class="mobile-nav-btn">
+                </a>
+                <a href="./phonecase-page/index.html">
+                    <div class="mobile-nav">
+                        <p>에어팟 케이스</p>
+                        <div class="mobile-nav-btn">
+                        </div>
                     </div>
-                </div></a>
-                <a href="./phonecase-page/index.html"><div class="mobile-nav">
-                    <p>스트랩</p>
-                    <div class="mobile-nav-btn">
+                </a>
+                <a href="./phonecase-page/index.html">
+                    <div class="mobile-nav">
+                        <p>스트랩</p>
+                        <div class="mobile-nav-btn">
+                        </div>
                     </div>
-                </div></a>
-                <a href="./phonecase-page/index.html"><div class="mobile-nav">
-                    <p>그립톡</p>
-                    <div class="mobile-nav-btn">
+                </a>
+                <a href="./phonecase-page/index.html">
+                    <div class="mobile-nav">
+                        <p>그립톡</p>
+                        <div class="mobile-nav-btn">
+                        </div>
                     </div>
-                </div></a>
-                <a href="./customized/index.html"><div class="mobile-nav">
-                    <p>케이스 제작</p>
-                    <div class="mobile-nav-btn">
+                </a>
+                <a href="./customized/index.html">
+                    <div class="mobile-nav">
+                        <p>케이스 제작</p>
+                        <div class="mobile-nav-btn">
+                        </div>
                     </div>
-                </div></a>
+                </a>
             </div>
             <div class="mobile-menu-bottom-con">
                 <div class="mobile-menu-bottom-btn-wrapper">
@@ -217,60 +230,149 @@
         </a>
     </div>
     <div class="bestitems-con">
-        <div class="bestitems-wrapper">
+        <div class="swiper mySwiper bestitems-wrapper">
             <p class="bestitems-title">Best Items</p>
-            <div class="bestitems-contents-con">
-                <a href="./detail/index.html"><div class="bestitems-contents-wrapper">
-                    <div class="bestitems-contents-img">
-                        <img src="img/bluedinosaur1detail.jpg" alt="">
-                    </div>
-                    <div class="bestitems-contents-name">
-                        <p>파란 공룡 케이스</p>
-                    </div>
-                    <div class="bestitems-contents-price">
-                        <p>10,900원</p>
-                    </div>
-                </div></a>
-                <a href="./detail/index.html"><div class="bestitems-contents-wrapper">
-                    <div class="bestitems-contents-img">
-                        <img src="img/greendinosaur1detail.jpg" alt="">
-                    </div>
-                    <div class="bestitems-contents-name">
-                        <p>초록 공룡 케이스</p>
-                    </div>
-                    <div class="bestitems-contents-price">
-                        <p>10,900원</p>
-                    </div>
-                </div></a>
-                <a href="./detail/index.html"><div class="bestitems-contents-wrapper">
-                    <div class="bestitems-contents-img">
-                        <img src="img/pinkdinosaur1detail.jpg" alt="">
-                    </div>
-                    <div class="bestitems-contents-name">
-                        <p>핑크 공룡케이스</p>
-                    </div>
-                    <div class="bestitems-contents-price">
-                        <p>10,900원</p>
-                    </div>
-                </div></a>
-                <a href="./detail/index.html"><div class="bestitems-contents-wrapper">
-                    <div class="bestitems-contents-img">
-                        <img src="img/orangedinosaur1detail.jpg" alt="">
-                    </div>
-                    <div class="bestitems-contents-name">
-                        <p>주황 공룡 케이스</p>
-                    </div>
-                    <div class="bestitems-contents-price">
-                        <p>10,900원</p>
-                    </div>
-                </div></a>
+            <div class="swiper-wrapper bestitems-contents-con">
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/bluedinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>파란 공룡 케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/greendinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>초록 공룡 케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/pinkdinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>핑크 공룡케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/orangedinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>주황 공룡 케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/bluedinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>파란 공룡 케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/greendinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>초록 공룡 케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/pinkdinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>핑크 공룡케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/orangedinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>주황 공룡 케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./detail/index.html">
+                        <div class="bestitems-contents-wrapper">
+                            <div class="bestitems-contents-img">
+                                <img src="img/pinkdinosaur1detail.jpg" alt="">
+                            </div>
+                            <div class="bestitems-contents-name">
+                                <p>핑크 공룡케이스</p>
+                            </div>
+                            <div class="bestitems-contents-price">
+                                <p>10,900원</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="bestitems-btn-con">
-            <div id="bestitems-pre-btn">
-            </div>
-            <div id="bestitems-next-btn">
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 
@@ -285,175 +387,203 @@
             <p class="newarrivals-title">New Arrivals</p>
         </div>
         <div class="newarrivals-content-wrapper">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/bluedinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/bluedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>파란 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>파란 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/catcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 고양이 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-black.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>검정 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/catcase1.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-green.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 고양이 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/dogcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 강아지 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-black.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>검정 체크무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-green.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 체크무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/dogcase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 강아지 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/flowercase1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/flowercase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>꽃무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>꽃무늬 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>타이다이무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaur1.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-2.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>핑크 젤리 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-3.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>일본풍 패턴 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>타이다이무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-2.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>핑크 젤리 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-3.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>일본풍 패턴 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-4.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-4.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>하얀 바둑돌 그립톡</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>4,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>하얀 바둑돌 그립톡</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/orangedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>주황 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>4,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/pinkdinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>분홍 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/orangedinosaur1.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/watermeloncase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>수박 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>주황 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaurairpod1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/pinkdinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>분홍 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/watermeloncase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>수박 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaurairpod1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
     </div>
 
@@ -463,188 +593,220 @@
         </div>
 
         <div class="newarrivals-content-wrapper-1024px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/bluedinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/bluedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>파란 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>파란 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/catcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 고양이 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-black.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>검정 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/catcase1.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-green.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 고양이 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-black.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>검정 체크무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-green.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 체크무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
         <div class="newarrivals-content-wrapper-1024px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/dogcase1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/dogcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 강아지 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 강아지 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/flowercase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>꽃무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/flowercase1.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>타이다이무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>꽃무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>타이다이무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
         <div class="newarrivals-content-wrapper-1024px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-2.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-2.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>핑크 젤리 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>핑크 젤리 에어팟 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-3.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>일본풍 패턴 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-4.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>하얀 바둑돌 그립톡</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>4,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-3.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/orangedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>주황 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>일본풍 패턴 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-4.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>하얀 바둑돌 그립톡</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>4,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/orangedinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>주황 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
         <div class="newarrivals-content-wrapper-1024px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/pinkdinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/pinkdinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>분홍 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>분홍 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/watermeloncase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>수박 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaurairpod1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/watermeloncase1.jpg" alt="">
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/bluedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>파란 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>수박 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaurairpod1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/bluedinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>파란 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
     </div>
 
@@ -653,179 +815,208 @@
             <p class="newarrivals-title">New Arrivals</p>
         </div>
         <div class="newarrivals-content-wrapper-768px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/bluedinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/bluedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>파란 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>파란 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/catcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 고양이 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-black.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>검정 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/catcase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 고양이 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-black.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>검정 체크무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
         <div class="newarrivals-content-wrapper-768px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-green.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-green.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 체크무늬 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/dogcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 강아지 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/flowercase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>꽃무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/dogcase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 강아지 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/flowercase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>꽃무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
         <div class="newarrivals-content-wrapper-768px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>타이다이무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-2.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>핑크 젤리 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>타이다이무늬 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-2.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>핑크 젤리 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-768px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-3.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-3.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>일본풍 패턴 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>일본풍 패턴 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-4.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>하얀 바둑돌 그립톡</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>4,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/orangedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>주황 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-4.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>하얀 바둑돌 그립톡</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>4,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/orangedinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>주황 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
         <div class="newarrivals-content-wrapper-768px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/pinkdinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/pinkdinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>분홍 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>분홍 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/watermeloncase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>수박 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaurairpod1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/watermeloncase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>수박 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaurairpod1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
     </div>
 
@@ -834,196 +1025,221 @@
             <p class="newarrivals-title">New Arrivals</p>
         </div>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/bluedinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/bluedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>파란 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>파란 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/catcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 고양이 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/catcase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 고양이 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-black.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-black.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>검정 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>검정 체크무늬 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/watermeloncase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>수박 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/watermeloncase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>수박 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/checkcase-green.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/checkcase-green.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 체크무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 체크무늬 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/dogcase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>선글라스 낀 강아지 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/dogcase1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>선글라스 낀 강아지 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/flowercase1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/flowercase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>꽃무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>꽃무늬 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>타이다이무늬 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>타이다이무늬 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-2.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>핑크 젤리 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-2.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>핑크 젤리 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-3.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-3.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>일본풍 패턴 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>일본풍 패턴 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/newarrival-4.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>하얀 바둑돌 그립톡</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>4,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/newarrival-4.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>하얀 바둑돌 그립톡</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>4,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/orangedinosaur1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/orangedinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>주황 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>주황 공룡 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/pinkdinosaur1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>분홍 공룡 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/pinkdinosaur1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>분홍 공룡 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div>
         </div></a>
         <div class="newarrivals-content-wrapper-480px">
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/watermeloncase1.jpg" alt="">
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/watermeloncase1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>수박 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>10,900원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-name">
-                    <p>수박 케이스</p>
+            </a>
+            <a href="./detail/index.html">
+                <div class="newarrivals-content">
+                    <div class="newarrivals-content-img">
+                        <img src="img/greendinosaurairpod1.jpg" alt="">
+                    </div>
+                    <div class="newarrivals-content-name">
+                        <p>초록 공룡 에어팟 케이스</p>
+                    </div>
+                    <div class="newarrivals-content-price">
+                        <p>6,800원</p>
+                    </div>
                 </div>
-                <div class="newarrivals-content-price">
-                    <p>10,900원</p>
-                </div>
-            </div></a>
-            <a href="./detail/index.html"><div class="newarrivals-content">
-                <div class="newarrivals-content-img">
-                    <img src="img/greendinosaurairpod1.jpg" alt="">
-                </div>
-                <div class="newarrivals-content-name">
-                    <p>초록 공룡 에어팟 케이스</p>
-                </div>
-                <div class="newarrivals-content-price">
-                    <p>6,800원</p>
-                </div>
-            </div></a>
+            </a>
         </div>
     </div>
 
@@ -1058,6 +1274,7 @@
     <script src="https://kit.fontawesome.com/e810b1ac08.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
 </body>
 

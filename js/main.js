@@ -1,8 +1,8 @@
 //section1 left fixed
 $.fn.Scrolling = function (obj, tar) {
-  var _this = this;
+  const _this = this;
   $(window).scroll(function (e) {
-    var end = obj + tar;
+    let end = obj + tar;
     if ($(window).scrollTop() >= obj) {
       _this.addClass("fixed")
     } else {
@@ -18,7 +18,7 @@ $.fn.Scrolling = function (obj, tar) {
   });
 };
 
-$(".s1-inr .left .ct-bx").Scrolling($(".s1-inr .left .ct-bx").offset().top, ($("#section1").height() + $("#visual").height() - $("#section1").offset().top - $("#section1").offset().top/2));
+$(".s1-inr .left .ct-bx").Scrolling($(".s1-inr .left .ct-bx").offset().top, ($("#section1").height() + $("#visual").height() - $("#section1").offset().top - $("#section1").offset().top / 2));
 
 // AOS
 AOS.init();
@@ -26,7 +26,7 @@ AOS.init();
 // header
 function moveheader() {
   document.addEventListener('scroll', onScroll, { passive: true });
-  var last = 0;
+  let last = 0;
   const gap = 1;
   const nav = document.querySelector('#header');
   const headerheight = document.querySelector('#header').clientHeight;
@@ -71,43 +71,63 @@ ScrollTrigger.create({
   scrub: 1,
 });
 
-//background
-$(window).scroll(function () {
-  if ($(window).scrollTop() >= $("#section2").offset().top - 600) {
-    $("body").css("background", "#fff");
-    $(".hd-inr .logo").css("color", "black");
-    $(".hd-inr .gnb p").css("color", "black");
-    $(".starry-black").css("display", "none");
-    $(".starry-white").css("display", "block");
-    $(".bars .line").css("background","black");
-    $(".mGnb-inr").css("background","black");
-    $(".mGnb-inr li a").css("color","white");
+// background scroll
+
+document.addEventListener('DOMContentLoaded', function () {
+  const body = document.body;
+  const section1 = document.getElementById('section1');
+  const section2 = document.getElementById('section2');
+  const section1Height = section1.offsetHeight;
+  const section2Top = section2.offsetTop;
+  let scrollPosition = window.scrollY;
+
+  function handleScroll() {
+    scrollPosition = window.scrollY;
+
+    if (scrollPosition < section1Height - 10) {
+      // Section 1 내에서는 배경 색상이 검정색으로 고정
+      body.style.backgroundColor = 'black';
+      $(".starry-black").css("display", "block");
+      $(".starry-white").css("display", "none");
+      $(".bars .line").css("background","white");
+      $(".mGnb-inr").css("background","white");
+      $(".mGnb-inr li a").css("color","black");
+      $(".hd-inr .logo").css("color","white");
+      $(".hd-inr .gnb p").css("color","white");
+
+    } else if (scrollPosition <= section2Top + 10) {
+      // Section 1에서 Section 2로 스크롤할 때 배경 색상 서서히 변경
+      let percentage = ((scrollPosition - (section1Height - 10)) / (section2Top - 10 - (section1Height - 10))) * 100;
+      body.style.backgroundColor = 'hsl(0, 0%, ' + percentage + '%)';
+    } else {
+      // Section 2에 도달하면 배경 색상이 흰색으로 고정
+      body.style.backgroundColor = 'white';
+      $(".starry-black").css("display", "none");
+      $(".starry-white").css("display", "block");
+      $(".bars .line").css("background","black");
+      $(".mGnb-inr").css("background","black");
+      $(".mGnb-inr li a").css("color","white");
+      $(".hd-inr .logo").css("color","black");
+      $(".hd-inr .gnb p").css("color","black");
+    }
   }
-  else {
-    $("body").css("background", "#000");
-    $(".hd-inr .logo").css("color", "white");
-    $(".hd-inr .gnb p").css("color", "white");
-    $(".starry-black").css("display", "block");
-    $(".starry-white").css("display", "none");
-    $(".bars .line").css("background","white");
-    $(".mGnb-inr").css("background","white");
-    $(".mGnb-inr li a").css("color","black");
-  }
+
+  window.addEventListener('scroll', handleScroll);
 });
 
-$(window).scroll(function(){
-  if ($(window).scrollTop() >= $("#section3").offset().top - 100){
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= $("#section3").offset().top - 100) {
     $("#section3").css("opacity", "1");
     $(".hd-inr .logo").css("color", "white");
     $(".hd-inr .gnb p").css("color", "white");
-    $(".starry-gra").css("display","block");
-    $(".bars .line").css("background","white");
-    $(".mGnb-inr").css("background","white");
-    $(".mGnb-inr li a").css("color","black");
+    $(".starry-gra").css("display", "block");
+    $(".bars .line").css("background", "white");
+    $(".mGnb-inr").css("background", "white");
+    $(".mGnb-inr li a").css("color", "black");
   }
-  else{
+  else {
     $("#section3").css("opacity", "0");
-    $(".starry-gra").css("display","none");
+    $(".starry-gra").css("display", "none");
   }
 });
 
@@ -119,30 +139,30 @@ $(".bars").on("click", function () {
     $("#mGnb").css("opacity", 0);
     $("#mGnb").css("visibility", "hidden");
     $(".bars").removeClass("close");
-    $(".bars .line:first-child").css("transform","rotate(0) translateY(0)");
-    $(".bars .line:nth-child(2)").css("display","block");
-    $(".bars .line:last-child").css("transform","rotate(0) translateY(0)");
-  }else{
+    $(".bars .line:first-child").css("transform", "rotate(0) translateY(0)");
+    $(".bars .line:nth-child(2)").css("display", "block");
+    $(".bars .line:last-child").css("transform", "rotate(0) translateY(0)");
+  } else {
     $("#header").css("z-index", 999);
     $("#mGnb").css("z-index", 900);
     $("#mGnb").css("opacity", 1);
     $("#mGnb").css("visibility", "visible");
     $(".bars").addClass("close");
-    $(".bars .line:first-child").css("transform","rotate(45deg) translateY(5px)");
-    $(".bars .line:nth-child(2)").css("display","none");
-    $(".bars .line:last-child").css("transform","rotate(-45deg) translateY(-5px)");
+    $(".bars .line:first-child").css("transform", "rotate(45deg) translateY(5px)");
+    $(".bars .line:nth-child(2)").css("display", "none");
+    $(".bars .line:last-child").css("transform", "rotate(-45deg) translateY(-5px)");
   }
 });
 
-$("#mGnb .mGnb_inr li a").on("click", function(){
+$("#mGnb .mGnb_inr li a").on("click", function () {
   $("#header").css("z-index", 10);
   $("#mGnb").css("z-index", -1);
   $("#mGnb").css("opacity", 0);
   $("#mGnb").css("visibility", "hidden");
   $(".bars").removeClass("close");
-  $(".bars .line:first-child").css("transform","rotate(0) translateY(0)");
-  $(".bars .line:nth-child(2)").css("display","block");
-  $(".bars .line:last-child").css("transform","rotate(0) translateY(0)");
+  $(".bars .line:first-child").css("transform", "rotate(0) translateY(0)");
+  $(".bars .line:nth-child(2)").css("display", "block");
+  $(".bars .line:last-child").css("transform", "rotate(0) translateY(0)");
 })
 
 $("#mGnb").on("click", function () {
@@ -151,7 +171,7 @@ $("#mGnb").on("click", function () {
   $("#mGnb").css("opacity", 0);
   $("#mGnb").css("visibility", "hidden");
   $(".bars").removeClass("close");
-  $(".bars .line:first-child").css("transform","rotate(0) translateY(0)");
-  $(".bars .line:nth-child(2)").css("display","block");
-  $(".bars .line:last-child").css("transform","rotate(0) translateY(0)");
+  $(".bars .line:first-child").css("transform", "rotate(0) translateY(0)");
+  $(".bars .line:nth-child(2)").css("display", "block");
+  $(".bars .line:last-child").css("transform", "rotate(0) translateY(0)");
 });
